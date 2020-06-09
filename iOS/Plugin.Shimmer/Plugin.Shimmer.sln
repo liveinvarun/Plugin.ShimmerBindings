@@ -1,0 +1,28 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Plugin.Shimmer", "source\Plugin.Shimmer\Plugin.Shimmer.csproj", "{F95BCF32-EC03-4AB0-9695-B76D2FFC294F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|iPhoneSimulator = Debug|iPhoneSimulator
+		Debug|iPhone = Debug|iPhone
+		Debug|Any CPU = Debug|Any CPU
+		Release|iPhoneSimulator = Release|iPhoneSimulator
+		Release|iPhone = Release|iPhone
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F95BCF32-EC03-4AB0-9695-B76D2FFC294F}.Debug|iPhone.ActiveCfg = Debug|Any CPU
+		{F95BCF32-EC03-4AB0-9695-B76D2FFC294F}.Debug|iPhone.Build.0 = Debug|Any CPU
+		{F95BCF32-EC03-4AB0-9695-B76D2FFC294F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F95BCF32-EC03-4AB0-9695-B76D2FFC294F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F95BCF32-EC03-4AB0-9695-B76D2FFC294F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F95BCF32-EC03-4AB0-9695-B76D2FFC294F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F95BCF32-EC03-4AB0-9695-B76D2FFC294F}.Release|iPhone.ActiveCfg = Release|iPhone
+		{F95BCF32-EC03-4AB0-9695-B76D2FFC294F}.Release|iPhone.Build.0 = Release|iPhone
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

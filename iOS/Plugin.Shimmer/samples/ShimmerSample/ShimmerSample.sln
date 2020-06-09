@@ -1,0 +1,23 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShimmerSample", "ShimmerSample\ShimmerSample.csproj", "{3245E3F7-0ACF-4BF9-A7F2-084F5D29A60B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|iPhoneSimulator = Debug|iPhoneSimulator
+		Release|iPhoneSimulator = Release|iPhoneSimulator
+		Debug|iPhone = Debug|iPhone
+		Release|iPhone = Release|iPhone
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3245E3F7-0ACF-4BF9-A7F2-084F5D29A60B}.Debug|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
+		{3245E3F7-0ACF-4BF9-A7F2-084F5D29A60B}.Debug|iPhoneSimulator.Build.0 = Debug|iPhoneSimulator
+		{3245E3F7-0ACF-4BF9-A7F2-084F5D29A60B}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
+		{3245E3F7-0ACF-4BF9-A7F2-084F5D29A60B}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
+		{3245E3F7-0ACF-4BF9-A7F2-084F5D29A60B}.Debug|iPhone.ActiveCfg = Debug|iPhone
+		{3245E3F7-0ACF-4BF9-A7F2-084F5D29A60B}.Debug|iPhone.Build.0 = Debug|iPhone
+		{3245E3F7-0ACF-4BF9-A7F2-084F5D29A60B}.Release|iPhone.ActiveCfg = Release|iPhone
+		{3245E3F7-0ACF-4BF9-A7F2-084F5D29A60B}.Release|iPhone.Build.0 = Release|iPhone
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="planet" translatesAutoresizingMaskIntoConstraints="NO" id="LTo-5N-DmS">
+                                <rect key="frame" x="0.0" y="0.0" width="1920" height="967"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="1920" id="X37-50-g6a"/>
+                                    <constraint firstAttribute="height" constant="967" id="nFs-i5-D8p"/>
+                                </constraints>
+                            </imageView>
+                            <view contentMode="scaleAspectFit" translatesAutoresizingMaskIntoConstraints="NO" id="XAG-dp-ffW" customClass="ShimmeringView">
+                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Shimmer" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c2U-58-Hrm">
+                                        <rect key="frame" x="0.0" y="50" width="414" height="69"/>
+                                        <color key="backgroundColor" systemColor="quaternarySystemFillColor" red="0.4549019608" green="0.4549019608" blue="0.50196078430000002" alpha="0.080000000000000002" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-UltraLight" family="Helvetica Neue" pointSize="60"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="c2U-58-Hrm" secondAttribute="trailing" id="4WF-aE-qA0"/>
+                                    <constraint firstItem="c2U-58-Hrm" firstAttribute="leading" secondItem="XAG-dp-ffW" secondAttribute="leading" id="Bhy-yO-hli"/>
+                                    <constraint firstItem="c2U-58-Hrm" firstAttribute="centerX" secondItem="XAG-dp-ffW" secondAttribute="centerX" id="Z7t-CX-hbn"/>
+                                    <constraint firstItem="c2U-58-Hrm" firstAttribute="top" secondItem="XAG-dp-ffW" secondAttribute="top" constant="50" id="jSw-qR-bbR"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="IsShimmering" value="YES"/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="tertiarySystemFillColor" red="0.46274509800000002" green="0.46274509800000002" blue="0.50196078430000002" alpha="0.12" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="XAG-dp-ffW" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="F1Z-UN-gWM"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="XAG-dp-ffW" secondAttribute="bottom" id="HLp-NI-Vk1"/>
+                            <constraint firstAttribute="trailing" secondItem="XAG-dp-ffW" secondAttribute="trailing" id="ItD-u9-3yz"/>
+                            <constraint firstItem="XAG-dp-ffW" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="UGp-21-mhh"/>
+                            <constraint firstItem="XAG-dp-ffW" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="Y9J-L5-JWY"/>
+                            <constraint firstItem="LTo-5N-DmS" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="bzl-jK-6uD"/>
+                            <constraint firstItem="LTo-5N-DmS" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="pXn-RT-bYp"/>
+                            <constraint firstItem="XAG-dp-ffW" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="zwF-WQ-eBh"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="shimlabel" destination="c2U-58-Hrm" id="VyX-bF-6Ok"/>
+                        <outlet property="shimmeringView" destination="XAG-dp-ffW" id="1Cj-Pq-f7b"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="0.0" y="0.0"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="planet" width="1920" height="967"/>
+    </resources>
+</document>
